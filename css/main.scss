@@ -4,24 +4,11 @@
 
 
 body {
-    background-image: linear-gradient(to top, $body_gradient1 20%, $body_gradient2 100%), url('../img/cover.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    opacity: 0.83;
+    @include body;
 }
 
 .header {
-    font-family: $font;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1000px;
-    margin: auto;
-    align-items: center;
-    padding: 20px;
-    border: 2px solid $orange;
-    background-color: $dark_blue;
-    margin-bottom: 50px;
+    @include header;
 
         img {
             max-width: 200px;
