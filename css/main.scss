@@ -179,6 +179,7 @@ main {
 
         .text {
             font-family: $font_lucida;
+            font-style: italic;
             max-width: 850px;
             margin: 0 auto;
             @include text;
@@ -295,6 +296,7 @@ main {
 
                 p {
                     line-height: 30px;
+                    font-style: italic;
                     color: $gold;
                     text-align: justify;
                     padding: 10px;

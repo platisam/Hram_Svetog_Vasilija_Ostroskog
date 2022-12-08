@@ -160,6 +160,7 @@ main #intro .title::after {
 }
 main #intro .text {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+  font-style: italic;
   max-width: 850px;
   margin: 0 auto;
   font-size: 17px;
@@ -273,6 +274,7 @@ main #services .service-box h3 {
 }
 main #services .service-box p {
   line-height: 30px;
+  font-style: italic;
   color: rgb(94, 94, 12);
   text-align: justify;
   padding: 10px;
