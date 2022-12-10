@@ -159,15 +159,15 @@ main #intro .title::after {
   margin-bottom: 35px;
 }
 main #intro .text {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
-  font-style: italic;
-  max-width: 850px;
-  margin: 0 auto;
   font-size: 17px;
   line-height: 30px;
   font-weight: 400;
   text-align: justify;
   color: rgb(94, 94, 12);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+  font-style: italic;
+  max-width: 850px;
+  margin: 0 auto;
   min-width: 500px;
   margin-bottom: 30px;
 }
@@ -255,7 +255,7 @@ main #services .service-box {
 main #services .service-box img {
   width: 180px;
   margin-bottom: 10px;
-  transition: 0.2s all;
+  transition: 0.3s all;
   border-radius: 5px;
   outline: 1px solid rgb(215, 165, 0);
 }
@@ -301,7 +301,7 @@ main #services .service-box:nth-child(4) img {
 }
 
 footer {
-  font-family: Arial, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
   text-align: center;
   background-color: rgba(246, 198, 87, 0.9);
   padding: 10px 0 0;
@@ -310,10 +310,11 @@ footer {
   border: 2px solid rgb(215, 165, 0);
   box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.1);
 }
-footer h7 {
+footer p {
   color: rgb(0, 0, 128);
+  font-size: 14px;
 }
-footer h7::after {
+footer p::after {
   content: "";
   width: 55px;
   height: 1px;
