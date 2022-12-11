@@ -178,8 +178,8 @@ main {
     #hero {
         height: 450px;
         max-width: 1000px;
-        background-image: url(../img/slide2.jpg);
-        background-image:  linear-gradient(to left, $hero_shadow1 20%, $hero_shadow2 100%), url(../img/slide2.jpg);
+        background-image: url(../img/kupola.jpg);
+        background-image:  linear-gradient(to left, $hero_shadow1 20%, $hero_shadow2 100%), url(../img/kupola.jpg);
         background-repeat: no-repeat;
         margin: auto;
         display: flex;
@@ -193,34 +193,34 @@ main {
             font-family: $font_lucida;
 
             a:nth-child(1) {
-                background-color: transparent;
-                color: $orange_links;
+                background-color: rgba($orange_links, 0.80);
+                color: $dark_blue;
                 font-weight: 600;
                 font-size: 16px;
-                border: 1px solid $orange_links;
-                border-radius: 4px;
+                border: 2px solid $dark_blue;
+                border-radius: 5px;
                 text-decoration: none;
                 padding: 10px 24px;
 
                 &:hover {
-                    background-color: rgba($orange_links, 0.80);
-                    color: $grey_links;
+                    background-color: rgba($dark_blue, 0.70);
+                    color: $orange_links;
                 }
             }
 
             a:nth-child(2) {
-                background-color: transparent;
-                color: $orange_links;
+                background-color: rgba($orange_links, 0.80);
+                color: $dark_blue;
                 font-weight: 600;
                 font-size: 16px;
-                border: 1px solid $orange_links;
-                border-radius: 4px;
+                border: 2px solid $dark_blue;
+                border-radius: 5px;
                 text-decoration: none;
                 padding: 10px 24px;
 
                 &:hover {
-                    background-color: rgba($orange_links, 0.75);
-                    color: $grey_links;
+                    background-color: rgba($dark_blue, 0.70);
+                    color: $orange_links;
                 }
             }
         }
@@ -406,3 +406,6 @@ footer {
         color: $navy;
     }
 }
+
+// contact stranica
+
