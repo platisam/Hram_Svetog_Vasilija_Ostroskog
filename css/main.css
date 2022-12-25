@@ -379,4 +379,52 @@ footer .footerCopyright {
   border-top: 1px solid rgb(94, 94, 12);
   margin-top: 10px;
   color: rgb(0, 0, 128);
+}
+
+#contact_page form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+#contact_page form h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: rgb(94, 94, 12);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+  letter-spacing: 2px;
+}
+#contact_page form div {
+  padding: 15px 0;
+}
+#contact_page form div label {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 3px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+  color: rgb(94, 94, 12);
+}
+#contact_page form div input {
+  height: 50px;
+  width: 100%;
+  font-size: 18px;
+  padding: 0 10px;
+  border: 1px solid rgb(215, 165, 0);
+}
+#contact_page form div textarea {
+  border: 1px solid rgb(215, 165, 0);
+}
+#contact_page form div button {
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+  color: rgb(94, 94, 12);
+  border: 2px solid rgb(215, 165, 0);
+  background-color: rgba(94, 94, 12, 0.2);
+  border-radius: 5px;
+}
+#contact_page form div button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(94, 94, 12);
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

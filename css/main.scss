@@ -409,3 +409,60 @@ footer {
 
 // contact stranica
 
+#contact_page {
+
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+
+        h1 {
+            text-align: center;
+            margin-bottom: 15px;
+            color: $gold;
+            font-family: $font_lucida;
+            letter-spacing: 2px;
+        }
+
+        div {
+            padding: 15px 0;
+
+            label {
+                display: block;
+                font-weight: bold;
+                font-size: 16px;
+                margin-bottom: 3px;
+                font-family: $font_lucida;
+                color: $gold;
+            }
+
+            input {
+                height: 50px;
+                width: 100%;
+                font-size: 18px;
+                padding: 0 10px;
+                border: 1px solid $orange;
+            }
+
+            textarea {
+                border: 1px solid $orange;
+            }
+
+            button {
+                padding: 10px 30px;
+                font-size: 18px;
+                font-weight: 700;
+                font-family: $font_lucida;
+                color: $gold;
+                border: 2px solid $orange;
+                background-color: rgba($gold, 0.2);
+                border-radius: 5px;
+
+                &:hover {
+                    background-color: $white;
+                    color: $gold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
