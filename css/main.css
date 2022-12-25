@@ -388,6 +388,7 @@ footer .footerCopyright {
 #contact_page form h1 {
   text-align: center;
   margin-bottom: 15px;
+  font-weight: 400;
   color: rgb(94, 94, 12);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
   letter-spacing: 2px;
@@ -397,7 +398,7 @@ footer .footerCopyright {
 }
 #contact_page form div label {
   display: block;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 16px;
   margin-bottom: 3px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;

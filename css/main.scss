@@ -418,6 +418,7 @@ footer {
         h1 {
             text-align: center;
             margin-bottom: 15px;
+            font-weight: 400;
             color: $gold;
             font-family: $font_lucida;
             letter-spacing: 2px;
@@ -428,7 +429,7 @@ footer {
 
             label {
                 display: block;
-                font-weight: bold;
+                font-weight: 500;
                 font-size: 16px;
                 margin-bottom: 3px;
                 font-family: $font_lucida;
