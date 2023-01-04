@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   max-width: 1000px;
-  margin: auto;
+  margin: 0 auto;
   align-items: center;
   padding: 20px;
   border: 2px solid rgb(215, 165, 0);
@@ -79,7 +79,7 @@ main .slider-wrapper {
   max-width: 1000px;
   height: 550px;
   box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.24), 0 9px 46px 8px rgba(0, 0, 0, 0.22), 0 11px 15px -7px rgba(0, 0, 0, 0.25);
-  margin: auto;
+  margin: 0 auto;
   margin-top: 20px;
   position: relative;
   margin-bottom: 50px;
@@ -177,7 +177,7 @@ main #hero {
   background-image: url(../img/kupola.jpg);
   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.4) 20%, rgba(0, 0, 0, 0.2) 100%), url(../img/kupola.jpg);
   background-repeat: no-repeat;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -225,7 +225,7 @@ main .subtitle {
   text-transform: uppercase;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
   max-width: 850px;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
   margin-top: 70px;
   text-shadow: 1px 5px 2px rgba(175, 160, 160, 0.5);
@@ -245,7 +245,7 @@ main #services {
   grid-template-columns: repeat(2, 1fr);
   padding: 20px;
   max-width: 1000px;
-  margin: auto;
+  margin: 0 auto;
   margin-top: 20px;
 }
 main #services .service-box {
@@ -316,7 +316,7 @@ main .context .sadrzaj {
   z-index: 99;
   width: 750px;
   max-width: 100%;
-  margin: auto;
+  margin: 0 auto;
 }
 main .context .sadrzaj .citat {
   font-style: italic;
@@ -413,19 +413,75 @@ footer .footerCopyright {
 }
 #contact_page form div textarea {
   border: 1px solid rgb(215, 165, 0);
+  width: 100%;
 }
-#contact_page form div button {
+#contact_page form .btn {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+#contact_page form .btn button {
   padding: 10px 30px;
   font-size: 18px;
   font-weight: 700;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
   color: rgb(94, 94, 12);
   border: 2px solid rgb(215, 165, 0);
-  background-color: rgba(94, 94, 12, 0.2);
+  background-color: rgba(94, 94, 12, 0.1);
   border-radius: 5px;
 }
-#contact_page form div button:hover {
+#contact_page form .btn button:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(94, 94, 12);
   cursor: pointer;
+}
+
+#info .container_info {
+  max-width: 700px;
+  margin: 0 auto;
+}
+#info .container_info h4 {
+  font-size: 18px;
+  letter-spacing: 1.4px;
+  color: rgb(94, 94, 12);
+  text-shadow: 1px 5px 2px rgba(175, 160, 160, 0.5);
+  margin-top: 75px;
+  margin-bottom: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+}
+#info .container_info ul {
+  list-style: none;
+}
+#info .container_info ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  color: rgb(94, 94, 12);
+  text-shadow: 1px 5px 2px rgba(175, 160, 160, 0.5);
+  margin-top: 7px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+}
+#info .container_info h3 {
+  letter-spacing: 1.4px;
+  color: rgb(94, 94, 12);
+  text-shadow: 1px 5px 2px rgba(175, 160, 160, 0.5);
+  margin-top: 55px;
+  margin-bottom: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+}
+#info .container_info p {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: justify;
+  color: rgb(94, 94, 12);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+  font-style: italic;
+  max-width: 850px;
+  margin: 10px auto;
+  min-width: 500px;
+}
+#info .container_info img {
+  width: 100%;
+  height: 450px;
 }/*# sourceMappingURL=main.css.map */

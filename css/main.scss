@@ -80,7 +80,7 @@ main {
         max-width: 1000px;
         height: 550px;
         box-shadow: 0 24px 38px 3px $slider_shadow1, 0 9px 46px 8px $slider_shadow2, 0 11px 15px -7px $slider_shadow3;
-        margin: auto;
+        margin: 0 auto;
         margin-top: 20px;
         position: relative;
         margin-bottom: 50px;
@@ -181,7 +181,7 @@ main {
         background-image: url(../img/kupola.jpg);
         background-image:  linear-gradient(to left, $hero_shadow1 20%, $hero_shadow2 100%), url(../img/kupola.jpg);
         background-repeat: no-repeat;
-        margin: auto;
+        margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -229,7 +229,7 @@ main {
     .subtitle {
         @include title;
         max-width: 850px;
-        margin: auto;
+        margin: 0 auto;
         text-align: center;
         margin-top: 70px;
         text-shadow: 1px 5px 2px $text-shadow;
@@ -251,7 +251,7 @@ main {
         grid-template-columns: repeat(2,1fr);
         padding: 20px;
         max-width: 1000px;
-        margin: auto;
+        margin: 0 auto;
         margin-top: 20px;
 
             .service-box {
@@ -334,7 +334,7 @@ main {
             z-index: 99;
             width: 750px;
             max-width: 100%;
-            margin: auto;
+            margin: 0 auto;
 
             .citat {
                 font-style: italic;
@@ -446,8 +446,15 @@ footer {
 
             textarea {
                 border: 1px solid $orange;
+                width: 100%;
             }
+        }
 
+        .btn {
+            text-align: center;
+            margin-top: 15px;
+            margin-bottom: 50px;
+    
             button {
                 padding: 10px 30px;
                 font-size: 18px;
@@ -455,15 +462,71 @@ footer {
                 font-family: $font_lucida;
                 color: $gold;
                 border: 2px solid $orange;
-                background-color: rgba($gold, 0.2);
+                background-color: rgba($gold, 0.1);
                 border-radius: 5px;
-
+    
                 &:hover {
                     background-color: $white;
                     color: $gold;
                     cursor: pointer;
                 }
             }
+        }
+    }
+}
+
+// info stranica
+
+#info {
+    .container_info {
+        max-width: 700px;
+        margin: 0 auto;
+
+        h4 {
+            font-size: 18px;
+            letter-spacing: 1.4px;
+            color: $gold;
+            text-shadow: 1px 5px 2px $text-shadow;
+            margin-top: 75px;
+            margin-bottom: 25px;
+            font-family: $font_lucida;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                margin-bottom: 5px;
+                font-size: 14px;
+                letter-spacing: 1.4px;
+                color: $gold;
+                text-shadow: 1px 5px 2px $text-shadow;
+                margin-top: 7px;
+                font-family: $font_lucida;
+            }
+        }
+
+        h3 {
+            letter-spacing: 1.4px;
+            color: $gold;
+            text-shadow: 1px 5px 2px $text-shadow;
+            margin-top: 55px;
+            margin-bottom: 15px;
+            font-family: $font_lucida;
+        }
+
+        p {
+            @include text;
+            font-family: $font_lucida;
+            font-style: italic;
+            max-width: 850px;
+            margin: 10px auto;
+            min-width: 500px;
+        }
+
+        img {
+            width: 100%;
+            height: 450px;
         }
     }
 }
