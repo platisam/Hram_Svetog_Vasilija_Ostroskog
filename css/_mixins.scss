@@ -21,12 +21,12 @@
 
 @mixin title {
     color: $gold;
-    font-size: 25px;
-    font-weight: 900px;
+    font-size: 28px;
+    font-weight: 700px;
     line-height: 36px;
     letter-spacing: 6.4px;
     text-transform: uppercase;
-    font-family: $font_lucida;
+    font-family: 'Viaoda Libre', cursive;
 }
 
 @mixin text {
